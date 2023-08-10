@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+
 :root {
     --bgc: #FFFFFF;
     --text-color: #4d5ae5;
@@ -308,6 +316,7 @@ img {
 }
 
 .projects-list {
+
     row-gap: 48px;
     display: flex;
     flex-wrap: wrap;
