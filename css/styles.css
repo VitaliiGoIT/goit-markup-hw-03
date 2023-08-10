@@ -13,7 +13,9 @@ body {
     background-color: var(--bgc);
 }
 
-
+img {
+    display: block;
+}
 
 .link {
     text-decoration: none;
@@ -23,11 +25,32 @@ body {
     list-style: none;
 }
 
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+}
+
 /* Advanced styles */
 
 /* Nav */
 
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
