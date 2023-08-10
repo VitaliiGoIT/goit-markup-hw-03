@@ -26,11 +26,13 @@ img {
     list-style: none;
 }
 
+
 .container {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 
 .visually-hidden {
     position: absolute;
